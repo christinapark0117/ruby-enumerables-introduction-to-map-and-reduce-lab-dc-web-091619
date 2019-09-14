@@ -32,3 +32,4 @@ def map_to_square(source_array)
   return source_array
 end
 
+def 
