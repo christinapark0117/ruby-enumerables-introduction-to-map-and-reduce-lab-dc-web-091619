@@ -1,2 +1,2 @@
-def map_to_negativize(source_array) do
+def map_to_negativize(source_array)
   
