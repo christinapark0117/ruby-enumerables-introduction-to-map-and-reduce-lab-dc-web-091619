@@ -45,7 +45,7 @@ end
 
 def reduce_to_all_true(source_array) 
   index = 0
-  # Check if all elements in the array are true. If so return true
+  
   while index < source_array.length do
     if source_array[index] == false
       return false
@@ -56,6 +56,13 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array) 
-  # Check if any element in the array are true. If so return true
-
+  index = 0
+  
+  while index < source_array.length do
+    if source_array[index] == true
+      return true
+    end
+    index += 1
+  end
+  return true
 end
