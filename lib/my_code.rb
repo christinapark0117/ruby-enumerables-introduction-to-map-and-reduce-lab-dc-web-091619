@@ -36,9 +36,9 @@ def reduce_to_total(source_array, starting_point)
   index = 0
   total = 0
 
-  if starting_point != nil
-    index = starting_point
-  end
+  # if starting_point != nil
+  #   index = starting_point
+  # end
 
   while index < source_array.length do
     total += source_array[index]
