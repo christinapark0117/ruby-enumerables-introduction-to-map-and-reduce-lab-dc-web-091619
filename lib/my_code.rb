@@ -32,14 +32,19 @@ def map_to_square(source_array)
   return source_array
 end
 
-def reduce_to_total(source_array, starting_point) do
-
+def reduce_to_total(source_array, starting_point)
+  index = 0
+  
+  while index < source_array do
+    
+    index += 1
+  end
 end
 
-def reduce_to_all_true(source_array) do
+def reduce_to_all_true(source_array) 
   
 end
 
-def reduce_to_any_true(source_array) do
+def reduce_to_any_true(source_array) 
   
 end
